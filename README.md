@@ -1,18 +1,28 @@
-Loanword Analysis in Legal Malayalam
+Title
+Legal Loanwords in Malayalam. Corpus Based Analysis
 
-This project presents a Python-based corpus analysis of annotated legal Malayalam data to examine loanword usage in legal texts.
+Description
+This project presents a corpus based exploratory analysis of loanwords in Malayalam legal documents using a manually annotated dataset.
 
 Dataset
-The dataset consists of manually annotated legal Malayalam entries with metadata such as loanword status, source language, grammatical function, and integration level.
+1036 tokens from Malayalam legal texts.
+Annotations include loanword status, source language, grammatical function, integration level, and semantic domain.
 
-Methodology
-The analysis was carried out using Python and pandas in Google Colab. Loanwords were filtered using boolean annotations, followed by frequency analysis by source language, grammatical function, and integration level. Results were exported as CSV files and visualized using bar charts.
+Methods
+Data filtering using boolean annotations.
+Frequency analysis using pandas.
+Visualization using matplotlib.
+
+Key Observations
+English, Sanskrit, and Persian dominate Malayalam legal vocabulary.
+Loanwords primarily function as nouns.
+High integration levels indicate lexical stabilization in legal usage.
 
 Tools
-Python
-pandas
-matplotlib
-Google Colab
+Python, pandas, matplotlib.
+Google Colab.
 
-Applications
-This project supports research in computational linguistics, legal language processing, multilingual NLP, and translation studies.
+Relevance
+Legal linguistics.
+Computational linguistics.
+Legal NLP preprocessing.
